@@ -11,6 +11,8 @@ module.exports = {
   entry: {
     app: './src/main.js'
   },
+  mode: 'production',
+  devtool: 'false',
   output: {
     path: config.build.assetsRoot,
     filename: '[name].js',
